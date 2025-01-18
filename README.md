@@ -1,1 +1,1 @@
-https://github.com/L1ttleDolly?tab=repositories
+https://github.com/L1ttleDolly/ono-tebe-nado-fd
