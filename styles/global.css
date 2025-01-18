@@ -23,10 +23,12 @@ li,
 blockquote {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 a {
   color: inherit;
+  text-decoration: none;
 }
 
 img {
@@ -36,3 +38,13 @@ img {
 button {
   font: inherit;
 }
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+address {
+  font-style: normal;
+}
+
+
