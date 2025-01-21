@@ -43,12 +43,13 @@ header {
 }
 
 .header_logo {
+
     display: block;
 }
 
 .header_logo-image {
-    width: 129.11px;
-    height: 104.65px;
+    width: 135px;
+    height: 105px;
     background-repeat: no-repeat;
 }
 
@@ -82,9 +83,8 @@ header {
     flex-direction: column;
     justify-content: space-between;
     min-width: 1100px;
-    max-width: 100%;
     width: 1100px;
-    height: 757px;
+    min-height: 757px;
     position: relative;
     background-size: cover;
     background-image: url(../images/cover.jpg);
@@ -106,23 +106,26 @@ header {
 
 .aligned-text {
     display: block;
+    width: auto;
    margin-top: 160px;
    margin-left: 50px;
 }
 
 .aligned-text_center {
     display: block;
+    width: auto;
     text-align: center;
     padding-right: 50px;
-    padding-top: 19px;
+    padding-top: 20px;
     padding-left: 80px;
 }
 
 .aligned-text_right {
     display: block;
-   text-align: end;
-  padding-right: 19px;
-  padding-top: 21px;
+    width: auto;
+    text-align: end;
+    padding-right: 19px;
+    padding-top: 24px;
 }
 
 .cover__description {
@@ -131,7 +134,8 @@ header {
     width: 100%;
     max-width: 100%;
     margin-bottom: 53px;
-    padding-left: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .cover__description-text {
@@ -167,6 +171,7 @@ header {
     width: 100%;
     padding-left: 24px;
     padding-right: 20px;
+    margin-bottom: 50px;
 }
 
 .lots__heading-item {
